@@ -2039,7 +2039,7 @@ legend + .control-group {
   zoom: 1;
   padding: 4px 12px;
   margin-bottom: 0;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
   vertical-align: middle;
@@ -2171,7 +2171,7 @@ legend + .control-group {
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
-  width: auto;
+  width: 100%;
 }
 .btn-primary.active,
 .btn-warning.active,
@@ -3956,7 +3956,7 @@ a.thumbnail:focus {
 }
 .progress-success.progress-striped .bar,
 .progress-striped .bar-success {
-  background-color: #62c462;
+  background-color: #E05048;
   background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, rgba(255, 255, 255, 0.15)), color-stop(0.25, transparent), color-stop(0.5, transparent), color-stop(0.5, rgba(255, 255, 255, 0.15)), color-stop(0.75, rgba(255, 255, 255, 0.15)), color-stop(0.75, transparent), to(transparent));
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);

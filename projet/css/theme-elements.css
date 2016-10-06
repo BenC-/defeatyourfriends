@@ -381,7 +381,7 @@ a.thumb-info span.thumb-info-type {
 	border-radius: 2px;
 	display: inline-block;
 	float: left;
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 400;
 	letter-spacing: 0;
 	margin: 8px -2px -15px -2px;
@@ -1001,7 +1001,7 @@ ul.simple-post-list div.post-image {
 
 ul.simple-post-list div.post-meta {
 	color: #888;
-	font-size: 0.8em;
+	font-size: 1.3em;
 }
 
 ul.simple-post-list li {

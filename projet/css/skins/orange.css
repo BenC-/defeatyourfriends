@@ -33,7 +33,7 @@ a:active {
 	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e05048), to(#e08348));
 	background-image: -webkit-linear-gradient(top, #e05048, #e08348);
 	background-image: -o-linear-gradient(top, #e05048, #e08348);
-	background-image: linear-gradient(to bottom, #e05048, #e08348);
+	background-image: linear-gradient(to bottom, #e05048, #e33a30);
 	background-repeat: repeat-x;
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe05048', endColorstr='#ffe08348', GradientType=0);
 	border-color: #e08348 #e08348 #bc5c20;
@@ -48,7 +48,7 @@ a:active {
 .btn-primary.disabled,
 .btn-primary[disabled] {
 	color: #ffffff;
-	background-color: #e08348;
+	background-color: #e04c44;
 }
 
 .btn-primary:active,
