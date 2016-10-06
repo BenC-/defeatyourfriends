@@ -21,10 +21,10 @@
     type="text/css">
 
     <!-- Libs CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/twitter-bootstrap/2.3.0/css/bootstrap-combined.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendor/flexslider/flexslider.css" media="screen" />
-    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css" media="screen" />
+    <link rel="stylesheet" href="vendor/fancybox/jquery.fancybox.css" media="screen">
+    <link rel="stylesheet" href="vendor/isotope/jquery.isotope.css" media="screen">
 
     <!-- Theme CSS -->
     <link rel="stylesheet" href="css/theme.css">
@@ -73,13 +73,35 @@
 <body>
 
     <div class="body">
-        <header>
+         <header>
             <div class="container">
-                <h1 class="logo">
+                <h2 class="logo">
+				
+                <a href="index.html">
+                <i class="fa fa-cube"></i>of10.io
+                </a>
+                		
+				</h2>
+
+               
+                <div class="social-icons">
+                    <ul class="social-icons">
+                    </ul>
+                </div>
+                <nav>
+                    <ul class="nav nav-pills nav-main" id="mainMenu">
+                        <li>
                             <a href="index.html">
-                                <img alt="Porto" src="img/logo.png">
-                            </a>
-                        </h1>
+							    Create my own cube
+						    </a>
+                        </li>
+                        <li>
+                            <a href="index.html">
+							    New random game
+						    </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </header>
 
@@ -105,119 +127,114 @@
             </section>
 
             <section class="page-middle">
-            <div class="container">
-           <div class="row">
-               
-               <h2>Rankings</h2>
-
-						<ul style="position: relative; overflow: hidden; height: 898px;" class="team-list sort-destination isotope" data-sort-id="team">
-							<li style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);" class="span3 isotope-item leadership">
-								<div class="team-item thumbnail">
-									<a href="#" class="thumb-info team">
-										<img alt="" src="img/team/team-1.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">John Doe</span>
-											<span class="thumb-info-type">1st</span>
-										</span>
-									</a>
-									
-								</div>
-							</li>
-							<li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 0px, 0px);" class="span3 isotope-item marketing">
-								<div class="team-item thumbnail">
-									<a href="#" class="thumb-info team">
-										<img alt="" src="img/team/team-2.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Jessica Doe</span>
-											<span class="thumb-info-type">2nd</span>
-										</span>
-									</a>
-								</div>
-							</li>
-							<li style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 0px, 0px);" class="span3 isotope-item development">
-								<div class="team-item thumbnail">
-									<a href="#" class="thumb-info team">
-										<img alt="" src="img/team/team-3.jpg">
-										<span class="thumb-info-title">
-											<span class="thumb-info-inner">Rick Edward Doe</span>
-											<span class="thumb-info-type">3rd</span>
-										</span>
-									</a>
-								</div>
-							</li>
-							
-						</ul>
-
-					</div>
-           
-            </div>
-           
-            </section>
-
-            </div>
-
-            <footer>
                 <div class="container">
                     <div class="row">
-                        <div class="footer-ribon">
-                            <span>Defeat Your Friends</span>
-                        </div>
+
+                        <h2>Rankings</h2>
+
+                        <ul style="position: relative; overflow: hidden; height: 898px;" class="team-list sort-destination isotope" data-sort-id="team">
+                            <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);" class="span3 isotope-item leadership">
+                                <div class="team-item thumbnail">
+                                    <a href="#" class="thumb-info team">
+                                        <img alt="" src="img/team/team-1.jpg">
+                                        <span class="thumb-info-title">
+											<span class="thumb-info-inner">John Doe</span>
+                                        <span class="thumb-info-type">1st</span>
+                                        </span>
+                                    </a>
+
+                                </div>
+                            </li>
+                            <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 0px, 0px);" class="span3 isotope-item marketing">
+                                <div class="team-item thumbnail">
+                                    <a href="#" class="thumb-info team">
+                                        <img alt="" src="img/team/team-2.jpg">
+                                        <span class="thumb-info-title">
+											<span class="thumb-info-inner">Jessica Doe</span>
+                                        <span class="thumb-info-type">2nd</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 0px, 0px);" class="span3 isotope-item development">
+                                <div class="team-item thumbnail">
+                                    <a href="#" class="thumb-info team">
+                                        <img alt="" src="img/team/team-3.jpg">
+                                        <span class="thumb-info-title">
+											<span class="thumb-info-inner">Rick Edward Doe</span>
+                                        <span class="thumb-info-type">3rd</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </li>
+
+                        </ul>
+
                     </div>
+
                 </div>
-                <div class="footer-copyright">
-                    <div class="container">
-                        <div class="row">
-                            <div class="span1">
-                                <a href="index.html" class="logo">
-                                    <img alt="Porto Website Template" src="img/logo-footer.png">
-                                </a>
-                            </div>
-                            <div class="span7">
-                                <p>© Copyright 2016 by BenSean Company. All Rights Reserved.</p>
-                            </div>
-                            <div class="span4">
-                                <nav id="sub-menu">
-                                    <ul>
-                                        <li><a href="page-faq.html">FAQ's</a></li>
-                                        <li><a href="sitemap.html">Sitemap</a></li>
-                                        <li><a href="contact-us.html">Contact</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
+
+            </section>
+
         </div>
 
-        <!-- Libs -->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-        <script>
-            window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')
-        </script>
-        <script src="vendor/jquery.easing.js"></script>
-        <script src="vendor/jquery.cookie.js"></script>
-        <!-- <script src="master/style-switcher/style.switcher.js"></script> -->
-        <script src="vendor/bootstrap.js"></script>
-        <script src="vendor/selectnav.js"></script>
-        <script src="vendor/twitterjs/twitter.js"></script>
-        <script src="vendor/flexslider/jquery.flexslider.js"></script>
-        <script src="vendor/jflickrfeed/jflickrfeed.js"></script>
-        <script src="vendor/fancybox/jquery.fancybox.js"></script>
-        <script src="vendor/jquery.validate.js"></script>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="footer-ribon">
+                        <span> <i class="fa fa-cube"></i> cubeoften.io</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="span8">
+                            <p>© Copyright 2016 by BenSean Company. All Rights Reserved.</p>
+                        </div>
+                        <div class="span4">
+                            <nav id="sub-menu">
+                                <ul>
+                                    <li><a href="page-faq.html">FAQ's</a></li>
+                                    <li><a href="sitemap.html">Sitemap</a></li>
+                                    <li><a href="contact-us.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
 
-        <script src="js/plugins.js"></script>
+    <!-- Libs -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="vendor/jquery.js"><\/script>')
+    </script>
+    <script src="vendor/jquery.easing.js"></script>
+    <script src="vendor/jquery.cookie.js"></script>
+    <!-- <script src="master/style-switcher/style.switcher.js"></script> -->
+    <script src="vendor/bootstrap.js"></script>
+    <script src="vendor/selectnav.js"></script>
+    <script src="vendor/twitterjs/twitter.js"></script>
+    <script src="vendor/flexslider/jquery.flexslider.js"></script>
+    <script src="vendor/jflickrfeed/jflickrfeed.js"></script>
+    <script src="vendor/fancybox/jquery.fancybox.js"></script>
+    <script src="vendor/jquery.validate.js"></script>
 
-        <!-- Page Scripts -->
+    <script src="js/plugins.js"></script>
 
-        <!-- Theme Initializer -->
-        <script src="js/theme.js"></script>
+    <!-- Page Scripts -->
 
-        <!-- Custom JS -->
-        <script src="js/custom.js"></script>
+    <!-- Theme Initializer -->
+    <script src="js/theme.js"></script>
 
-        <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
-        <!--
+    <!-- Custom JS -->
+    <script src="js/custom.js"></script>
+
+    <!-- Google Analytics: Change UA-XXXXX-X to be your site's ID. Go to http://www.google.com/analytics/ for more information. -->
+    <!--
             <script>
                 var _gaq = _gaq || [];
                 _gaq.push(['_setAccount', 'UA-XXXXX-X']);

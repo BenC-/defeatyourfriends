@@ -88,9 +88,9 @@ header div.search input:focus {
 }
 
 /* Logo */
-header h1.logo {
+header h2.logo {
 	float: left;
-	margin: 15px 0;
+	margin: 15px 0px 10px 1px;
 	padding: 0;
 }
 
@@ -104,7 +104,7 @@ header nav select.selectnav {
 }
 
 header nav ul.nav-main {
-	margin: -5px 10px 20px 0
+	margin: 20px 100px 0px 0;
 }
 
 header nav ul.nav-main li.dropdown.open a.dropdown-toggle {
@@ -163,7 +163,7 @@ header nav ul.nav-main ul.dropdown-menu li:last-child > a {
 }
 
 header nav ul.nav-main li a {
-	font-size: 0.9em;
+	font-size: 1.2em;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 20px;

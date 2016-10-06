@@ -8,3 +8,7 @@
 /*background-image:url('/home/bchenebault/titre.png');*/
 
 }
+
+header h2 a:hover {
+    text-decoration: none;
+}
